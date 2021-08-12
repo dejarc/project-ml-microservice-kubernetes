@@ -15,6 +15,8 @@ install:
 	pip install --upgrade pip &&\
 		pip install -r requirements.txt
 
+	./install_hadolint.sh
+	
 test:
 	# Additional, optional, tests could go here
 	#python -m pytest -vv --cov=myrepolib tests/*.py
